@@ -19,6 +19,7 @@
     <div class="status">
         <div></div>
         <p class="success">Выполнено</p>
+        <p class="danger">Ошибка</p>
     </div>
     <div id="output"></div>
     <script type="text/javascript" src="logic-1.js"></script>
