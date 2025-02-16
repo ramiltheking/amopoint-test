@@ -94,7 +94,7 @@
             data: {
                 labels: [
                     @foreach ($visitsByHour as $visit)
-                        '{{ $visit->hour }}',
+                        'в {{ $visit->hour }} часов',
                     @endforeach
                 ],
                 datasets: [{
